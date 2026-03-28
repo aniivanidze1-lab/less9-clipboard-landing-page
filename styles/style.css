@@ -194,32 +194,82 @@ button {
     color: #9fabb2;
 }
 
-@media (max-width: 768px) {
-
-  .features-content {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .computer {
-    width: 100%;
-  }
-
-  .devices {
-    width: 100%;
-  }
-
-  .tools {
-    flex-direction: column;
+/* login page*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: "poppins", sans-serif;
+    color: azure;
+}
+.container{
+    display: flex;
+    justify-content: center;
     align-items: center;
-  }
-
-  .buttons {
+    height: 100vh;
+    background: url(images/login.background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper{
+    padding: 30px;
+    background-color: rgba(169, 82, 207, 0.16);
+    border-radius: 16px;
+    backdrop-filter: blur(15px);
+    max-width: 700px;
+    width: 100%;
+}
+ .login{
+    margin-bottom: 22px;
+    color: violet;
+    
+}
+.form{
+    display: flex;
     flex-direction: column;
-  }
+    align-items: stretch;
+    gap: 20px;
+}
+.inputbox{
+    display: flex;
+    flex-direction: column;
+}
+.inputbox label{
+    color: white;
+    margin-bottom: 6px;
+}
+.input{
+    border: 2px solid black;
+    border-radius: 10px;
+    background: none;
+    padding: 10px;
+}
+.input:hover{
+    background-color: rgb(164, 54, 161);
 
-  button {
-    width: 80%;
-    margin: 0 auto;
-  }
+}
+.btn {
+    background-color: rgb(232, 129, 232);
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 12px;
+    width: 150px;
+    
+}
+.btn:hover{
+    background-color: rgb(255, 0, 157);
+    color: white;
+    font-size: 18px;
+}
+.link{
+    color: rgb(29, 7, 88);
+    text-decoration: none;
+}
+.link:hover{
+    font-size: 20px;
+    color: rgb(255, 0, 157);
 }

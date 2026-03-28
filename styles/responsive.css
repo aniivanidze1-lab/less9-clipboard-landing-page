@@ -1,0 +1,66 @@
+/* main*/
+@media (max-width: 768px) {
+
+  .features-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .computer {
+    width: 100%;
+  }
+
+  .devices {
+    width: 100%;
+  }
+
+  .tools {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  button {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+/*secon page*/
+@media (max-width: 600px) {
+    .wrapper {
+        padding: 20px;
+        max-width: 90%;
+    }
+
+    h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .form {
+        gap: 15px;
+    }
+
+    .input {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .link {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .container {
+        padding: 15px;
+    }
+}
